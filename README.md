@@ -36,5 +36,7 @@ venv\Scripts\activate.bat
 
 ## 4. Run Files
 
-Run read.py
-Run localrag.py
+```
+python read.py
+python localrag.py
+```
