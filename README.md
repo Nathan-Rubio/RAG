@@ -1,6 +1,6 @@
-Steps
+#Steps
 
-Download Ollama
+## 1. Download Ollama
 
 Linux: 
 ```
@@ -11,7 +11,7 @@ Windows:
 irm https://ollama.com/install.ps1 | iex
 ```
 
-Go to the local file
+## 2. Go to the local file
 
 run
 
@@ -20,7 +20,21 @@ ollama pull mxbai-embed-large
 ollama pull llama3
 ```
 
-Create venv
+## 3. Create venv
+
+Linux:
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Windows:
+```
+python -m venv .venv
+venv\Scripts\activate.bat
+```
+
+## 4. Run Files
 
 Run read.py
 Run localrag.py
