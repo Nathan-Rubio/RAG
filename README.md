@@ -34,6 +34,8 @@ python -m venv .venv
 venv\Scripts\activate.bat
 ```
 
+## Install requirements
+
 ## 4. Run Files
 
 ```
